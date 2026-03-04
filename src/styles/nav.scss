@@ -16,7 +16,7 @@
       height: 1px;
       background-color: $main-dark-color;
 
-      transition: transform $effectDuration;
+      transition: transform $effect-duration;
       transform: scale(0);
       transform-origin: left;
     }
