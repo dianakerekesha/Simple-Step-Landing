@@ -1,19 +1,19 @@
-@import './variables';
-@import './mixins';
-@import './header';
-@import './icon';
-@import './page';
-@import './top-bar';
-@import './menu';
-@import './button';
-@import './nav';
-@import './section-title';
-@import './recommended';
-@import './product';
-@import './about-us';
-@import './categories';
-@import './contacts';
-@import './footer';
+@import "./variables";
+@import "./mixins";
+@import "./header";
+@import "./icon";
+@import "./page";
+@import "./top-bar";
+@import "./menu";
+@import "./button";
+@import "./nav";
+@import "./section-title";
+@import "./recommended";
+@import "./product";
+@import "./about-us";
+@import "./categories";
+@import "./contacts";
+@import "./footer";
 
 .main {
   background-color: $color-light;
@@ -27,5 +27,9 @@
       padding-block: 120px;
       row-gap: $row-gap-desctop;
     }
+  }
+
+  .contacts__textarea {
+    resize: none;
   }
 }

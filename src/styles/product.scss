@@ -1,5 +1,12 @@
 .product {
   &__photo {
     width: 100%;
+
+    transition: transform $effect-duration;
+    cursor: pointer;
+
+    &:hover {
+      transform: $scale;
+    }
   }
 }
